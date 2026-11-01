@@ -1,0 +1,1375 @@
+{
+  "PRODUCT_INFO": [
+    {
+      "PRODUCT_ID": "PR_A",
+      "MATERIAL_INFO": [
+        {
+          "MATERIAL_ID": "MT_A"
+        }
+      ]
+    },
+    {
+      "PRODUCT_ID": "PR_B",
+      "MATERIAL_INFO": [
+        {
+          "MATERIAL_ID": "MT_B"
+        }
+      ]
+    },
+    {
+      "PRODUCT_ID": "PR_C",
+      "MATERIAL_INFO": [
+        {
+          "MATERIAL_ID": "MT_C"
+        }
+      ]
+    },
+    {
+      "PRODUCT_ID": "PR_D",
+      "MATERIAL_INFO": [
+        {
+          "MATERIAL_ID": "MT_D"
+        }
+      ]
+    },
+    {
+      "PRODUCT_ID": "PR_E",
+      "MATERIAL_INFO": [
+        {
+          "MATERIAL_ID": "MT_E"
+        }
+      ]
+    },
+    {
+      "PRODUCT_ID": "PR_F",
+      "MATERIAL_INFO": [
+        {
+          "MATERIAL_ID": "MT_F"
+        }
+      ]
+    },
+    {
+      "PRODUCT_ID": "PR_G",
+      "MATERIAL_INFO": [
+        {
+          "MATERIAL_ID": "MT_G"
+        }
+      ]
+    }
+  ],
+  "PROCESS_INFO": [
+    {
+      "PROCESS_INFO_ID": "PP_A_1",
+      "PRODUCT_ID": "PR_A",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_A_5",
+          "MACHINE_TYPE_ID": "CNC_A",
+          "PROCESSING_TIME": "310"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI001",
+          "MATERIAL_ID": "MT_A",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI001",
+          "MATERIAL_ID": "MT_A",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_B_1",
+      "PRODUCT_ID": "PR_B",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_B_5",
+          "MACHINE_TYPE_ID": "CNC_A",
+          "PROCESSING_TIME": "350"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI002",
+          "MATERIAL_ID": "MT_B",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI002",
+          "MATERIAL_ID": "MT_B",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_C_1",
+      "PRODUCT_ID": "PR_C",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_C_5",
+          "MACHINE_TYPE_ID": "CNC_A",
+          "PROCESSING_TIME": "320"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI003",
+          "MATERIAL_ID": "MT_C",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI003",
+          "MATERIAL_ID": "MT_C",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_D_1",
+      "PRODUCT_ID": "PR_D",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_D_5",
+          "MACHINE_TYPE_ID": "CNC_B",
+          "PROCESSING_TIME": "330"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI004",
+          "MATERIAL_ID": "MT_D",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI004",
+          "MATERIAL_ID": "MT_D",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_E_1",
+      "PRODUCT_ID": "PR_E",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_E_5",
+          "MACHINE_TYPE_ID": "CNC_B",
+          "PROCESSING_TIME": "320"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI005",
+          "MATERIAL_ID": "MT_E",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI005",
+          "MATERIAL_ID": "MT_E",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_F_1",
+      "PRODUCT_ID": "PR_F",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_F_5",
+          "MACHINE_TYPE_ID": "CNC_D",
+          "PROCESSING_TIME": "177"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI006",
+          "MATERIAL_ID": "MT_F",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI006",
+          "MATERIAL_ID": "MT_F",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_F_2",
+      "PRODUCT_ID": "PR_F",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_F_6",
+          "MACHINE_TYPE_ID": "CNC_E",
+          "PROCESSING_TIME": "173"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI007",
+          "MATERIAL_ID": "MT_F",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI007",
+          "MATERIAL_ID": "MT_F",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_G_1",
+      "PRODUCT_ID": "PR_G",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_G_5",
+          "MACHINE_TYPE_ID": "CNC_D",
+          "PROCESSING_TIME": "140"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI008",
+          "MATERIAL_ID": "MT_G",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI008",
+          "MATERIAL_ID": "MT_G",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    },
+    {
+      "PROCESS_INFO_ID": "PP_G_2",
+      "PRODUCT_ID": "PR_G",
+      "OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_G_6",
+          "MACHINE_TYPE_ID": "CNC_E",
+          "PROCESSING_TIME": "140"
+        }
+      ],
+      "CONSUMED_MATERIAL_INFO": [
+        {
+          "CONSUMED_MATERIAL_INFO_ID": "CMI009",
+          "MATERIAL_ID": "MT_G",
+          "MATERIAL_NUM": "1"
+        }
+      ],
+      "PRODUCED_MATERIAL_INFO": [
+        {
+          "PRODUCED_MATERIAL_INFO_ID": "PMI009",
+          "MATERIAL_ID": "MT_G",
+          "MATERIAL_NUM": "1"
+        }
+      ]
+    }
+  ],
+  "MATERIAL_HANDLING_INFO": [
+    {
+      "MATERIAL_HANDLING_INFO_ID": "MHI_001",
+      "MATERIAL_ID": "MT_A",
+      "MATERIAL_HANDLING_OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_A_3_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_A_5_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_A_3_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_A_5_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_A_1",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_A_2",
+          "MHE_TYPE_ID": "LIFTER_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_A_6",
+          "MHE_TYPE_ID": "LIFTER_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_A_7",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        }
+      ]
+    },
+    {
+      "MATERIAL_HANDLING_INFO_ID": "MHI_002",
+      "MATERIAL_ID": "MT_B",
+      "MATERIAL_HANDLING_OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_B_3_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_B_5_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_B_3_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_B_5_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_B_1",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_B_2",
+          "MHE_TYPE_ID": "LIFTER_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_B_6",
+          "MHE_TYPE_ID": "LIFTER_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_B_7",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        }
+      ]
+    },
+    {
+      "MATERIAL_HANDLING_INFO_ID": "MHI_003",
+      "MATERIAL_ID": "MT_C",
+      "MATERIAL_HANDLING_OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_C_3_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_C_5_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_C_3_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_C_5_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_C_1",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_C_2",
+          "MHE_TYPE_ID": "LIFTER_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_C_6",
+          "MHE_TYPE_ID": "LIFTER_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_C_7",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        }
+      ]
+    },
+    {
+      "MATERIAL_HANDLING_INFO_ID": "MHI_004",
+      "MATERIAL_ID": "MT_D",
+      "MATERIAL_HANDLING_OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_D_3_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_D_5_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_D_3_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_D_5_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_D_1",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_D_2",
+          "MHE_TYPE_ID": "LIFTER_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_D_6",
+          "MHE_TYPE_ID": "LIFTER_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_D_7",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        }
+      ]
+    },
+    {
+      "MATERIAL_HANDLING_INFO_ID": "MHI_005",
+      "MATERIAL_ID": "MT_E",
+      "MATERIAL_HANDLING_OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_E_3_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_E_5_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_E_3_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_E_5_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_E_1",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_E_2",
+          "MHE_TYPE_ID": "LIFTER_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_E_6",
+          "MHE_TYPE_ID": "LIFTER_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_E_7",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        }
+      ]
+    },
+    {
+      "MATERIAL_HANDLING_INFO_ID": "MHI_006",
+      "MATERIAL_ID": "MT_F",
+      "MATERIAL_HANDLING_OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_F_3_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_F_6_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_F_3_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_F_6_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_F_1",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_F_2",
+          "MHE_TYPE_ID": "LIFTER_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_F_7",
+          "MHE_TYPE_ID": "LIFTER_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_F_8",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        }
+      ]
+    },
+    {
+      "MATERIAL_HANDLING_INFO_ID": "MHI_007",
+      "MATERIAL_ID": "MT_G",
+      "MATERIAL_HANDLING_OPERATION_INFO": [
+        {
+          "OPERATION_INFO_ID": "OR_G_3_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_G_6_1",
+          "MHE_TYPE_ID": "AMR_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_G_3_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_G_6_2",
+          "MHE_TYPE_ID": "AMR_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "8",
+          "UNLOADING_TIME": "8"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_G_1",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_G_2",
+          "MHE_TYPE_ID": "LIFTER_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_G_7",
+          "MHE_TYPE_ID": "LIFTER_B",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "15",
+          "UNLOADING_TIME": "15"
+        },
+        {
+          "OPERATION_INFO_ID": "OR_G_8",
+          "MHE_TYPE_ID": "SHUTTLE_A",
+          "HANDLING_BATCH_SIZE": "1",
+          "LOADING_TIME": "10",
+          "UNLOADING_TIME": "10"
+        }
+      ]
+    }
+  ],
+  "MACHINE_TYPE": [
+    {
+      "MACHINE_TYPE_ID": "CNC_A",
+      "RESOURCE_TYPE": "CNC",
+      "CAPACITY": "1",
+      "MEAN_TIME_TO_REPAIR": "250",
+      "MEAN_TIME_BETWEEN_FAILURE": "400000"
+    },
+    {
+      "MACHINE_TYPE_ID": "CNC_B",
+      "RESOURCE_TYPE": "CNC",
+      "CAPACITY": "1",
+      "MEAN_TIME_TO_REPAIR": "300",
+      "MEAN_TIME_BETWEEN_FAILURE": "400000"
+    },
+    {
+      "MACHINE_TYPE_ID": "CNC_D",
+      "RESOURCE_TYPE": "CNC",
+      "CAPACITY": "1",
+      "MEAN_TIME_TO_REPAIR": "250",
+      "MEAN_TIME_BETWEEN_FAILURE": "400000"
+    },
+    {
+      "MACHINE_TYPE_ID": "CNC_E",
+      "RESOURCE_TYPE": "CNC",
+      "CAPACITY": "1",
+      "MEAN_TIME_TO_REPAIR": "150",
+      "MEAN_TIME_BETWEEN_FAILURE": "400000"
+    }
+  ],
+  "BUFFER_TYPE": [
+    {
+      "BUFFER_TYPE_ID": "BT_A_IN",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    },
+    {
+      "BUFFER_TYPE_ID": "BT_A_OUT",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    },
+    {
+      "BUFFER_TYPE_ID": "BT_B_IN",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    },
+    {
+      "BUFFER_TYPE_ID": "BT_B_OUT",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    },
+    {
+      "BUFFER_TYPE_ID": "BT_C_IN",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    },
+    {
+      "BUFFER_TYPE_ID": "BT_C_OUT",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    },
+    {
+      "BUFFER_TYPE_ID": "BT_D_IN",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    },
+    {
+      "BUFFER_TYPE_ID": "BT_D_OUT",
+      "RESOURCE_TYPE": "BUFFER",
+      "CAPACITY": "3"
+    }
+  ],
+  "MHE_TYPE": [
+    {
+      "MHE_TYPE_ID": "AMR_A",
+      "RESOURCE_TYPE": "AMR",
+      "MOVE_SPEED": "1600",
+      "TRANSPORTATION_SPEED": "1200",
+      "CAPACITY": "2"
+    },
+    {
+      "MHE_TYPE_ID": "AMR_B",
+      "RESOURCE_TYPE": "AMR",
+      "MOVE_SPEED": "1700",
+      "TRANSPORTATION_SPEED": "1100",
+      "CAPACITY": "2"
+    },
+    {
+      "MHE_TYPE_ID": "SHUTTLE_A",
+      "RESOURCE_TYPE": "SHUTTLE",
+      "MOVE_SPEED": "1500",
+      "CAPACITY": "1",
+      "ACC_SPEED": "1000"
+    },
+    {
+      "MHE_TYPE_ID": "LIFTER_A",
+      "RESOURCE_TYPE": "LIFTER",
+      "MOVE_SPEED": "800",
+      "CAPACITY": "1",
+      "ACC_SPEED": "400",
+      "DEC_SPEED": "400"
+    },
+    {
+      "MHE_TYPE_ID": "LIFTER_B",
+      "RESOURCE_TYPE": "LIFTER",
+      "MOVE_SPEED": "800",
+      "CAPACITY": "1",
+      "ACC_SPEED": "400",
+      "DEC_SPEED": "400"
+    }
+  ],
+  "ASRS_TYPE": [
+    {
+      "ASRS_TYPE_ID": "ASRS_A",
+      "RESOURCE_TYPE": "ASRS",
+      "CAPACITY": "160"
+    }
+  ],
+  "MACHINE_INSTANCE": [
+    {
+      "MACHINE_INSTANCE_ID": "CNC_A_001",
+      "MACHINE_TYPE_ID": "CNC_A"
+    },
+    {
+      "MACHINE_INSTANCE_ID": "CNC_B_001",
+      "MACHINE_TYPE_ID": "CNC_B"
+    },
+    {
+      "MACHINE_INSTANCE_ID": "CNC_A_002",
+      "MACHINE_TYPE_ID": "CNC_A"
+    },
+    {
+      "MACHINE_INSTANCE_ID": "CNC_D_001",
+      "MACHINE_TYPE_ID": "CNC_D"
+    },
+    {
+      "MACHINE_INSTANCE_ID": "CNC_E_001",
+      "MACHINE_TYPE_ID": "CNC_E"
+    }
+  ],
+  "BUFFER_INSTANCE": [
+    {
+      "BUFFER_INSTANCE_ID": "BT_A_IN_001",
+      "BUFFER_TYPE_ID": "BT_A_IN"
+    },
+    {
+      "BUFFER_INSTANCE_ID": "BT_A_OUT_001",
+      "BUFFER_TYPE_ID": "BT_A_OUT"
+    },
+    {
+      "BUFFER_INSTANCE_ID": "BT_B_IN_001",
+      "BUFFER_TYPE_ID": "BT_B_IN"
+    },
+    {
+      "BUFFER_INSTANCE_ID": "BT_B_OUT_001",
+      "BUFFER_TYPE_ID": "BT_B_OUT"
+    },
+    {
+      "BUFFER_INSTANCE_ID": "BT_C_IN_001",
+      "BUFFER_TYPE_ID": "BT_C_IN"
+    },
+    {
+      "BUFFER_INSTANCE_ID": "BT_C_OUT_001",
+      "BUFFER_TYPE_ID": "BT_C_OUT"
+    },
+    {
+      "BUFFER_INSTANCE_ID": "BT_D_IN_001",
+      "BUFFER_TYPE_ID": "BT_D_IN"
+    },
+    {
+      "BUFFER_INSTANCE_ID": "BT_D_OUT_001",
+      "BUFFER_TYPE_ID": "BT_D_OUT"
+    }
+  ],
+  "ASRS_INSTANCE": [
+    {
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "ASRS_TYPE_ID": "ASRS_A",
+      "INVENTORY_STATUS": [
+        {
+          "INVENTORY_STATUS_ID": "INV04_A",
+          "MATERIAL_ID": "MT_A",
+          "STOCK_NUM": "2",
+          "LOCATION_INFO": [
+            {
+              "LOCATION_INFO_ID": "LOC04_001",
+              "ROW_ID": 9,
+              "COLUMN_ID": 1,
+              "TIER_ID": 0
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_002",
+              "ROW_ID": 9,
+              "COLUMN_ID": 1,
+              "TIER_ID": 2
+            }
+          ]
+        },
+        {
+          "INVENTORY_STATUS_ID": "INV04_B",
+          "MATERIAL_ID": "MT_B",
+          "STOCK_NUM": "3",
+          "LOCATION_INFO": [
+            {
+              "LOCATION_INFO_ID": "LOC04_003",
+              "ROW_ID": 9,
+              "COLUMN_ID": 1,
+              "TIER_ID": 3
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_004",
+              "ROW_ID": 8,
+              "COLUMN_ID": 0,
+              "TIER_ID": 0
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_016",
+              "ROW_ID": 9,
+              "COLUMN_ID": 0,
+              "TIER_ID": 3
+            }
+          ]
+        },
+        {
+          "INVENTORY_STATUS_ID": "INV04_C",
+          "MATERIAL_ID": "MT_C",
+          "STOCK_NUM": "2",
+          "LOCATION_INFO": [
+            {
+              "LOCATION_INFO_ID": "LOC04_005",
+              "ROW_ID": 9,
+              "COLUMN_ID": 1,
+              "TIER_ID": 1
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_006",
+              "ROW_ID": 8,
+              "COLUMN_ID": 0,
+              "TIER_ID": 1
+            }
+          ]
+        },
+        {
+          "INVENTORY_STATUS_ID": "INV04_D",
+          "MATERIAL_ID": "MT_D",
+          "STOCK_NUM": "2",
+          "LOCATION_INFO": [
+            {
+              "LOCATION_INFO_ID": "LOC04_007",
+              "ROW_ID": 8,
+              "COLUMN_ID": 0,
+              "TIER_ID": 2
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_008",
+              "ROW_ID": 8,
+              "COLUMN_ID": 0,
+              "TIER_ID": 3
+            }
+          ]
+        },
+        {
+          "INVENTORY_STATUS_ID": "INV04_E",
+          "MATERIAL_ID": "MT_E",
+          "STOCK_NUM": "2",
+          "LOCATION_INFO": [
+            {
+              "LOCATION_INFO_ID": "LOC04_009",
+              "ROW_ID": 8,
+              "COLUMN_ID": 1,
+              "TIER_ID": 0
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_010",
+              "ROW_ID": 8,
+              "COLUMN_ID": 1,
+              "TIER_ID": 1
+            }
+          ]
+        },
+        {
+          "INVENTORY_STATUS_ID": "INV04_F",
+          "MATERIAL_ID": "MT_F",
+          "STOCK_NUM": "3",
+          "LOCATION_INFO": [
+            {
+              "LOCATION_INFO_ID": "LOC04_011",
+              "ROW_ID": 8,
+              "COLUMN_ID": 1,
+              "TIER_ID": 2
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_013",
+              "ROW_ID": 9,
+              "COLUMN_ID": 0,
+              "TIER_ID": 0
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_014",
+              "ROW_ID": 9,
+              "COLUMN_ID": 0,
+              "TIER_ID": 1
+            }
+          ]
+        },
+        {
+          "INVENTORY_STATUS_ID": "INV04_G",
+          "MATERIAL_ID": "MT_G",
+          "STOCK_NUM": "2",
+          "LOCATION_INFO": [
+            {
+              "LOCATION_INFO_ID": "LOC04_012",
+              "ROW_ID": 8,
+              "COLUMN_ID": 1,
+              "TIER_ID": 3
+            },
+            {
+              "LOCATION_INFO_ID": "LOC04_015",
+              "ROW_ID": 9,
+              "COLUMN_ID": 0,
+              "TIER_ID": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "MHE_INSTANCE": [
+    {
+      "MHE_INSTANCE_ID": "AMR_A_001",
+      "MHE_TYPE_ID": "AMR_A",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_001",
+        "CURRENT_POSITION_X": "-1076.444",
+        "CURRENT_POSITION_Y": "12125.669"
+      },
+      "PROCESSED_TIME": "0"
+    },
+    {
+      "MHE_INSTANCE_ID": "AMR_B_001",
+      "MHE_TYPE_ID": "AMR_B",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_002",
+        "CURRENT_POSITION_X": "6158.734",
+        "CURRENT_POSITION_Y": "8324.74"
+      },
+      "PROCESSED_TIME": "0"
+    },
+    {
+      "MHE_INSTANCE_ID": "SHUTTLE_A_001",
+      "MHE_TYPE_ID": "SHUTTLE_A",
+      "PROCESSED_TIME": "0",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_003",
+        "CURRENT_POSITION_X": "21578.731",
+        "CURRENT_POSITION_Y": "700"
+      }
+    },
+    {
+      "MHE_INSTANCE_ID": "SHUTTLE_A_002",
+      "MHE_TYPE_ID": "SHUTTLE_A",
+      "PROCESSED_TIME": "0",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_004",
+        "CURRENT_POSITION_X": "21578.731",
+        "CURRENT_POSITION_Y": "2950"
+      }
+    },
+    {
+      "MHE_INSTANCE_ID": "SHUTTLE_A_003",
+      "MHE_TYPE_ID": "SHUTTLE_A",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_005",
+        "CURRENT_POSITION_X": "21578.731",
+        "CURRENT_POSITION_Y": "5200"
+      },
+      "PROCESSED_TIME": "0"
+    },
+    {
+      "MHE_INSTANCE_ID": "SHUTTLE_A_004",
+      "MHE_TYPE_ID": "SHUTTLE_A",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_006",
+        "CURRENT_POSITION_X": "21578.731",
+        "CURRENT_POSITION_Y": "7450"
+      },
+      "PROCESSED_TIME": "0"
+    },
+    {
+      "MHE_INSTANCE_ID": "LIFTER_A_001",
+      "MHE_TYPE_ID": "LIFTER_A",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_007",
+        "CURRENT_POSITION_X": "21522.051",
+        "CURRENT_POSITION_Y": "18057.327",
+        "CURRENT_POSITION_Z": "7450"
+      },
+      "PROCESSED_TIME": "0"
+    },
+    {
+      "MHE_INSTANCE_ID": "LIFTER_B_001",
+      "MHE_TYPE_ID": "LIFTER_B",
+      "CURRENT_POSITION": {
+        "CURRENT_POSITION_ID": "CP_008",
+        "CURRENT_POSITION_X": "21522.051",
+        "CURRENT_POSITION_Y": "18057.327",
+        "CURRENT_POSITION_Z": "7450"
+      },
+      "PROCESSED_TIME": "0"
+    }
+  ],
+  "PRODUCTION_PLAN": [
+    {
+      "PRODUCTION_PLAN_ID": "PP04_A",
+      "MATERIAL_ID": "MT_A",
+      "PRODUCTION_VOLUME": "2",
+      "CURRENT_VOLUME": "0",
+      "PRODUCTION_SCHEDULE": [],
+      "HANDLING_SCHEDULE": [],
+      "DUE_INFO": [
+        {
+          "DUE_INFO_ID": "PP04_A_0_DUE",
+          "DUE_DATETIME": "2026-08-13T08:00:00.000Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_001"
+        },
+        {
+          "DUE_INFO_ID": "PP04_A_1_DUE",
+          "DUE_DATETIME": "2026-08-13T11:48:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_002"
+        }
+      ]
+    },
+    {
+      "PRODUCTION_PLAN_ID": "PP04_B",
+      "MATERIAL_ID": "MT_B",
+      "PRODUCTION_VOLUME": "3",
+      "CURRENT_VOLUME": "0",
+      "PRODUCTION_SCHEDULE": [],
+      "HANDLING_SCHEDULE": [],
+      "DUE_INFO": [
+        {
+          "DUE_INFO_ID": "BRP04_B_COUT_DUE",
+          "DUE_DATETIME": "2026-08-13T07:22:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_016"
+        },
+        {
+          "DUE_INFO_ID": "PP04_B_1_DUE",
+          "DUE_DATETIME": "2026-08-13T16:04:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_003"
+        },
+        {
+          "DUE_INFO_ID": "PP04_B_2_DUE",
+          "DUE_DATETIME": "2026-08-13T20:20:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_004"
+        }
+      ]
+    },
+    {
+      "PRODUCTION_PLAN_ID": "PP04_C",
+      "MATERIAL_ID": "MT_C",
+      "PRODUCTION_VOLUME": "2",
+      "CURRENT_VOLUME": "0",
+      "PRODUCTION_SCHEDULE": [],
+      "HANDLING_SCHEDULE": [],
+      "DUE_INFO": [
+        {
+          "DUE_INFO_ID": "PP04_C_0_DUE",
+          "DUE_DATETIME": "2026-08-13T08:30:00.000Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_005"
+        },
+        {
+          "DUE_INFO_ID": "PP04_C_1_DUE",
+          "DUE_DATETIME": "2026-08-14T00:43:15.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_006"
+        }
+      ]
+    },
+    {
+      "PRODUCTION_PLAN_ID": "PP04_D",
+      "MATERIAL_ID": "MT_D",
+      "PRODUCTION_VOLUME": "2",
+      "CURRENT_VOLUME": "0",
+      "PRODUCTION_SCHEDULE": [],
+      "HANDLING_SCHEDULE": [],
+      "DUE_INFO": [
+        {
+          "DUE_INFO_ID": "PP04_D_1_DUE",
+          "DUE_DATETIME": "2026-08-14T07:19:15.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_007"
+        },
+        {
+          "DUE_INFO_ID": "PP04_D_2_DUE",
+          "DUE_DATETIME": "2026-08-14T13:55:15.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_008"
+        }
+      ]
+    },
+    {
+      "PRODUCTION_PLAN_ID": "PP04_E",
+      "MATERIAL_ID": "MT_E",
+      "PRODUCTION_VOLUME": "2",
+      "CURRENT_VOLUME": "0",
+      "PRODUCTION_SCHEDULE": [],
+      "HANDLING_SCHEDULE": [],
+      "DUE_INFO": [
+        {
+          "DUE_INFO_ID": "PP04_E_1_DUE",
+          "DUE_DATETIME": "2026-08-14T20:24:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_009"
+        },
+        {
+          "DUE_INFO_ID": "PP04_E_2_DUE",
+          "DUE_DATETIME": "2026-08-15T02:53:55.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_010"
+        }
+      ]
+    },
+    {
+      "PRODUCTION_PLAN_ID": "PP04_F",
+      "MATERIAL_ID": "MT_F",
+      "PRODUCTION_VOLUME": "3",
+      "CURRENT_VOLUME": "0",
+      "PRODUCTION_SCHEDULE": [],
+      "HANDLING_SCHEDULE": [],
+      "DUE_INFO": [
+        {
+          "DUE_INFO_ID": "PRP04_F_WIP_DUE",
+          "DUE_DATETIME": "2026-08-13T06:23:55.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_013"
+        },
+        {
+          "DUE_INFO_ID": "BRP04_F_DIN_DUE",
+          "DUE_DATETIME": "2026-08-13T06:51:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_014"
+        },
+        {
+          "DUE_INFO_ID": "PP04_F_1_DUE",
+          "DUE_DATETIME": "2026-08-15T03:24:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_011"
+        }
+      ]
+    },
+    {
+      "PRODUCTION_PLAN_ID": "PP04_G",
+      "MATERIAL_ID": "MT_G",
+      "PRODUCTION_VOLUME": "2",
+      "CURRENT_VOLUME": "0",
+      "PRODUCTION_SCHEDULE": [],
+      "HANDLING_SCHEDULE": [],
+      "DUE_INFO": [
+        {
+          "DUE_INFO_ID": "BRP04_G_DIN_DUE",
+          "DUE_DATETIME": "2026-08-13T07:19:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_015"
+        },
+        {
+          "DUE_INFO_ID": "PP04_G_1_DUE",
+          "DUE_DATETIME": "2026-08-15T03:55:35.652Z",
+          "RETRIEVAL_LOCATION_INFO_ID": "LOC04_012"
+        }
+      ]
+    }
+  ],
+  "HANDLING_REMAINING_PLAN": [],
+  "PRODUCTION_REMAINING_PLAN": [],
+  "BUFFER_REMAINING_PLAN": [],
+  "STORAGE_PLAN": [
+    {
+      "STORAGE_PLAN_ID": "SP04_A",
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "STORAGE_SCHEDULE": [
+        {
+          "STORAGE_SCHEDULE_ID": "SS04_A",
+          "MATERIAL_ID": "MT_A",
+          "STOCK_NUM": "2",
+          "STORAGE_LOCATION_INFO": []
+        }
+      ]
+    },
+    {
+      "STORAGE_PLAN_ID": "SP04_B",
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "STORAGE_SCHEDULE": [
+        {
+          "STORAGE_SCHEDULE_ID": "SS04_B",
+          "MATERIAL_ID": "MT_B",
+          "STOCK_NUM": "3",
+          "STORAGE_LOCATION_INFO": []
+        }
+      ]
+    },
+    {
+      "STORAGE_PLAN_ID": "SP04_C",
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "STORAGE_SCHEDULE": [
+        {
+          "STORAGE_SCHEDULE_ID": "SS04_C",
+          "MATERIAL_ID": "MT_C",
+          "STOCK_NUM": "2",
+          "STORAGE_LOCATION_INFO": []
+        }
+      ]
+    },
+    {
+      "STORAGE_PLAN_ID": "SP04_D",
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "STORAGE_SCHEDULE": [
+        {
+          "STORAGE_SCHEDULE_ID": "SS04_D",
+          "MATERIAL_ID": "MT_D",
+          "STOCK_NUM": "2",
+          "STORAGE_LOCATION_INFO": []
+        }
+      ]
+    },
+    {
+      "STORAGE_PLAN_ID": "SP04_E",
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "STORAGE_SCHEDULE": [
+        {
+          "STORAGE_SCHEDULE_ID": "SS04_E",
+          "MATERIAL_ID": "MT_E",
+          "STOCK_NUM": "2",
+          "STORAGE_LOCATION_INFO": []
+        }
+      ]
+    },
+    {
+      "STORAGE_PLAN_ID": "SP04_F",
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "STORAGE_SCHEDULE": [
+        {
+          "STORAGE_SCHEDULE_ID": "SS04_F",
+          "MATERIAL_ID": "MT_F",
+          "STOCK_NUM": "3",
+          "STORAGE_LOCATION_INFO": []
+        }
+      ]
+    },
+    {
+      "STORAGE_PLAN_ID": "SP04_G",
+      "ASRS_INSTANCE_ID": "ASRS_A_001",
+      "STORAGE_SCHEDULE": [
+        {
+          "STORAGE_SCHEDULE_ID": "SS04_G",
+          "MATERIAL_ID": "MT_G",
+          "STOCK_NUM": "2",
+          "STORAGE_LOCATION_INFO": []
+        }
+      ]
+    }
+  ]
+}

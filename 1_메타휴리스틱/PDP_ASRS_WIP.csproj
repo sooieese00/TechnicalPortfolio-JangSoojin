@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MILP_backup_original.cs" />
+  </ItemGroup>
+
+  
+  <PropertyGroup>
+    <CplexBinDir>C:\Program Files\IBM\ILOG\CPLEX_Studio2211\cplex\bin\x64_win64</CplexBinDir>
+    <HasCplex Condition="Exists('$(CplexBinDir)\ILOG.CPLEX.dll')">true</HasCplex>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(HasCplex)' == 'true'">
+    <DefineConstants>$(DefineConstants);HAS_CPLEX</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(HasCplex)' == 'true'">
+    <Reference Include="ILOG.Concert">
+      <HintPath>$(CplexBinDir)\ILOG.Concert.dll</HintPath>
+    </Reference>
+    <Reference Include="ILOG.CPLEX">
+      <HintPath>$(CplexBinDir)\ILOG.CPLEX.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(HasCplex)' != 'true'">
+    <Compile Remove="MILP.cs" />
+    <Compile Remove="MilpSequenceVerifier.cs" />
+    <Compile Remove="Experiment.cs" />
+  </ItemGroup>
+
+  <Target Name="ReportCplex" BeforeTargets="Build">
+    <Message Importance="high" Condition="'$(HasCplex)' == 'true'" Text="CPLEX found: MILP verification is included in this build." />
+    <Message Importance="high" Condition="'$(HasCplex)' != 'true'" Text="CPLEX not found at $(CplexBinDir): building WITHOUT the MILP verification arm (scenario solving is unaffected)." />
+  </Target>
+
+</Project>

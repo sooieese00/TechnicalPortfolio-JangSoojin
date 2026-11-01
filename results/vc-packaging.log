@@ -1,0 +1,28 @@
+export_lk_gnn_weights.py
+wrote <PORTFOLIO_ROOT>\results\vc-package\weights.bin
+wrote <PORTFOLIO_ROOT>\results\vc-package\weights.manifest.json
+parameters 36290
+
+build_vc_lk_runtime.py
+created <PORTFOLIO_ROOT>\results\vc-package\runtime.py chars 38136
+
+modify_vcmx_python_embedded_gnn.py
+created results/vc-package/embedded.vcmx
+controller bytes 468719 -> 417586
+
+modify_vcmx_pending_storage_recovery.py
+
+validate_vcmx_python_embedded_gnn.py
+zip_test=OK
+central_controller_python=OK
+central_controller_chars=417634
+missing=[]
+forbidden=[]
+
+create_lk_forward_fixture.py
+wrote <PORTFOLIO_ROOT>\results\vc-package\fixtures.json fixtures 5 rollout 112
+
+verify_lk_embedded_forward.py
+fixtures=5
+maxAbsError=4.47542476e-08
+PASS scores and choices

@@ -1,0 +1,24 @@
+분할 = 블록 16결정 · 검증 30% · 학습 80 · 검증 31 결정
+모델 = 쌍별 채점기 · BT 손실 · 후보피처 13 · d=16 L=3 · 파라미터 36,290 · cpu
+epoch    1  loss 0.6876  검증 쌍승률 0.8679  top-1 0.548  MRR 0.685  <-- 최고
+epoch    2  loss 0.6018  검증 쌍승률 0.8287  top-1 0.516  MRR 0.656
+epoch    3  loss 0.5467  검증 쌍승률 0.8268  top-1 0.548  MRR 0.672
+epoch    4  loss 0.4895  검증 쌍승률 0.8234  top-1 0.548  MRR 0.672
+epoch    5  loss 0.4471  검증 쌍승률 0.8251  top-1 0.548  MRR 0.677
+epoch    6  loss 0.4005  검증 쌍승률 0.8284  top-1 0.548  MRR 0.678
+epoch    7  loss 0.4010  검증 쌍승률 0.8320  top-1 0.548  MRR 0.678
+epoch    8  loss 0.3583  검증 쌍승률 0.8355  top-1 0.581  MRR 0.692
+epoch    9  loss 0.3601  검증 쌍승률 0.8372  top-1 0.581  MRR 0.692
+epoch   10  loss 0.3546  검증 쌍승률 0.8354  top-1 0.581  MRR 0.685
+epoch   11  loss 0.3557  검증 쌍승률 0.8374  top-1 0.581  MRR 0.683
+epoch   12  loss 0.3475  검증 쌍승률 0.8373  top-1 0.581  MRR 0.678
+epoch   13  loss 0.3226  검증 쌍승률 0.8343  top-1 0.516  MRR 0.639
+epoch   14  loss 0.3190  검증 쌍승률 0.8360  top-1 0.516  MRR 0.639
+epoch   15  loss 0.3005  검증 쌍승률 0.8376  top-1 0.516  MRR 0.639
+epoch   16  loss 0.3204  검증 쌍승률 0.8376  top-1 0.516  MRR 0.639
+epoch   17  loss 0.3209  검증 쌍승률 0.8360  top-1 0.484  MRR 0.623
+epoch   18  loss 0.2970  검증 쌍승률 0.8360  top-1 0.484  MRR 0.623
+epoch   19  loss 0.3369  검증 쌍승률 0.8360  top-1 0.484  MRR 0.623
+epoch   20  loss 0.3157  검증 쌍승률 0.8360  top-1 0.484  MRR 0.623
+채택 = epoch 1 (검증 쌍승률 0.8679)
+학습 9.8s · 저장 results/model.pt

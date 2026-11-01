@@ -1,0 +1,2429 @@
+{
+  "source": "scenario_04_P4R_INPUT_CLEAN.json",
+  "m": 16,
+  "n": 4,
+  "r": 2,
+  "numL": 160,
+  "b_in": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "b_out": [
+    3,
+    3,
+    3,
+    3
+  ],
+  "out_cap": 1,
+  "in_cap": 1,
+  "due": {
+    "0": 5764.3,
+    "1": 19480,
+    "2": 3520,
+    "3": 34840,
+    "4": 50200,
+    "5": 7564.3,
+    "6": 65960,
+    "7": 89720,
+    "8": 113480,
+    "9": 136840,
+    "10": 160200,
+    "11": 0,
+    "12": 1660,
+    "13": 162040,
+    "14": 3340,
+    "15": 163900
+  },
+  "active": [
+    {
+      "kind": "ret",
+      "job": 0,
+      "node": 1,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 0,
+      "node": 33,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 0,
+      "node": 49,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 0,
+      "node": 97,
+      "dur": 326
+    },
+    {
+      "kind": "pminus",
+      "job": 0,
+      "node": 65,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 0,
+      "node": 81,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 0,
+      "node": 17,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 1,
+      "node": 2,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 1,
+      "node": 34,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 1,
+      "node": 50,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 1,
+      "node": 98,
+      "dur": 326
+    },
+    {
+      "kind": "pminus",
+      "job": 1,
+      "node": 66,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 1,
+      "node": 82,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 1,
+      "node": 18,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 2,
+      "node": 3,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 2,
+      "node": 35,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 2,
+      "node": 51,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 2,
+      "node": 99,
+      "dur": 366
+    },
+    {
+      "kind": "pminus",
+      "job": 2,
+      "node": 67,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 2,
+      "node": 83,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 2,
+      "node": 19,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 3,
+      "node": 4,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 3,
+      "node": 36,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 3,
+      "node": 52,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 3,
+      "node": 100,
+      "dur": 366
+    },
+    {
+      "kind": "pminus",
+      "job": 3,
+      "node": 68,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 3,
+      "node": 84,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 3,
+      "node": 20,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 4,
+      "node": 5,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 4,
+      "node": 37,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 4,
+      "node": 53,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 4,
+      "node": 101,
+      "dur": 366
+    },
+    {
+      "kind": "pminus",
+      "job": 4,
+      "node": 69,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 4,
+      "node": 85,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 4,
+      "node": 21,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 5,
+      "node": 6,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 5,
+      "node": 38,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 5,
+      "node": 54,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 5,
+      "node": 102,
+      "dur": 336
+    },
+    {
+      "kind": "pminus",
+      "job": 5,
+      "node": 70,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 5,
+      "node": 86,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 5,
+      "node": 22,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 6,
+      "node": 7,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 6,
+      "node": 39,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 6,
+      "node": 55,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 6,
+      "node": 103,
+      "dur": 336
+    },
+    {
+      "kind": "pminus",
+      "job": 6,
+      "node": 71,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 6,
+      "node": 87,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 6,
+      "node": 23,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 7,
+      "node": 8,
+      "dur": 50.812
+    },
+    {
+      "kind": "pplus",
+      "job": 7,
+      "node": 40,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 7,
+      "node": 56,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 7,
+      "node": 104,
+      "dur": 346
+    },
+    {
+      "kind": "pminus",
+      "job": 7,
+      "node": 72,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 7,
+      "node": 88,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 7,
+      "node": 24,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 8,
+      "node": 9,
+      "dur": 50.812
+    },
+    {
+      "kind": "pplus",
+      "job": 8,
+      "node": 41,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 8,
+      "node": 57,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 8,
+      "node": 105,
+      "dur": 346
+    },
+    {
+      "kind": "pminus",
+      "job": 8,
+      "node": 73,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 8,
+      "node": 89,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 8,
+      "node": 25,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 9,
+      "node": 10,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 9,
+      "node": 42,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 9,
+      "node": 58,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 9,
+      "node": 106,
+      "dur": 336
+    },
+    {
+      "kind": "pminus",
+      "job": 9,
+      "node": 74,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 9,
+      "node": 90,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 9,
+      "node": 26,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 10,
+      "node": 11,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 10,
+      "node": 43,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 10,
+      "node": 59,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 10,
+      "node": 107,
+      "dur": 336
+    },
+    {
+      "kind": "pminus",
+      "job": 10,
+      "node": 75,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 10,
+      "node": 91,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 10,
+      "node": 27,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 11,
+      "node": 12,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 11,
+      "node": 44,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 11,
+      "node": 60,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 11,
+      "node": 108,
+      "dur": 366
+    },
+    {
+      "kind": "pminus",
+      "job": 11,
+      "node": 76,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 11,
+      "node": 92,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 11,
+      "node": 28,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 12,
+      "node": 13,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 12,
+      "node": 45,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 12,
+      "node": 61,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 12,
+      "node": 109,
+      "dur": 366
+    },
+    {
+      "kind": "pminus",
+      "job": 12,
+      "node": 77,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 12,
+      "node": 93,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 12,
+      "node": 29,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 13,
+      "node": 14,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 13,
+      "node": 46,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 13,
+      "node": 62,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 13,
+      "node": 110,
+      "dur": 366
+    },
+    {
+      "kind": "pminus",
+      "job": 13,
+      "node": 78,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 13,
+      "node": 94,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 13,
+      "node": 30,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 14,
+      "node": 15,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 14,
+      "node": 47,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 14,
+      "node": 63,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 14,
+      "node": 111,
+      "dur": 296
+    },
+    {
+      "kind": "pminus",
+      "job": 14,
+      "node": 79,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 14,
+      "node": 95,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 14,
+      "node": 31,
+      "dur": 54.812
+    },
+    {
+      "kind": "ret",
+      "job": 15,
+      "node": 16,
+      "dur": 60.812
+    },
+    {
+      "kind": "pplus",
+      "job": 15,
+      "node": 48,
+      "dur": 8
+    },
+    {
+      "kind": "dplus",
+      "job": 15,
+      "node": 64,
+      "dur": 8
+    },
+    {
+      "kind": "proc",
+      "job": 15,
+      "node": 112,
+      "dur": 296
+    },
+    {
+      "kind": "pminus",
+      "job": 15,
+      "node": 80,
+      "dur": 8
+    },
+    {
+      "kind": "dminus",
+      "job": 15,
+      "node": 96,
+      "dur": 8
+    },
+    {
+      "kind": "sto",
+      "job": 15,
+      "node": 32,
+      "dur": 54.812
+    }
+  ],
+  "res_options": [
+    {
+      "kind": "ret",
+      "job": 0,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 0,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 0,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 0,
+      "res": [
+        "ws0",
+        "ws2"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 0,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 0,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 0,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 1,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 1,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 1,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 1,
+      "res": [
+        "ws0",
+        "ws2"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 1,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 1,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 1,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 2,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 2,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 2,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 2,
+      "res": [
+        "ws0",
+        "ws2"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 2,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 2,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 2,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 3,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 3,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 3,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 3,
+      "res": [
+        "ws0",
+        "ws2"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 3,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 3,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 3,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 4,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 4,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 4,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 4,
+      "res": [
+        "ws0",
+        "ws2"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 4,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 4,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 4,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 5,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 5,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 5,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 5,
+      "res": [
+        "ws0",
+        "ws2"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 5,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 5,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 5,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 6,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 6,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 6,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 6,
+      "res": [
+        "ws0",
+        "ws2"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 6,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 6,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 6,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 7,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 7,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 7,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 7,
+      "res": [
+        "ws1"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 7,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 7,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 7,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 8,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 8,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 8,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 8,
+      "res": [
+        "ws1"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 8,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 8,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 8,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 9,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 9,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 9,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 9,
+      "res": [
+        "ws1"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 9,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 9,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 9,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 10,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 10,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 10,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 10,
+      "res": [
+        "ws1"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 10,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 10,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 10,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 11,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 11,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 11,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 11,
+      "res": [
+        "ws3"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 11,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 11,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 11,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 12,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 12,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 12,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 12,
+      "res": [
+        "ws3"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 12,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 12,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 12,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 13,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 13,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 13,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 13,
+      "res": [
+        "ws3"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 13,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 13,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 13,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 14,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 14,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 14,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 14,
+      "res": [
+        "ws3"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 14,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 14,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 14,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "ret",
+      "job": 15,
+      "res": [
+        "crane"
+      ]
+    },
+    {
+      "kind": "pplus",
+      "job": 15,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dplus",
+      "job": 15,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "proc",
+      "job": 15,
+      "res": [
+        "ws3"
+      ]
+    },
+    {
+      "kind": "pminus",
+      "job": 15,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "dminus",
+      "job": 15,
+      "res": [
+        "amr0",
+        "amr1"
+      ]
+    },
+    {
+      "kind": "sto",
+      "job": 15,
+      "res": [
+        "crane"
+      ]
+    }
+  ],
+  "dur_by_res": [
+    {
+      "kind": "ret",
+      "job": 0,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 0,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 0,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 0,
+      "dur": {
+        "ws0": 326,
+        "ws2": 326
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 0,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 0,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 0,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 1,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 1,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 1,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 1,
+      "dur": {
+        "ws0": 326,
+        "ws2": 326
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 1,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 1,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 1,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 2,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 2,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 2,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 2,
+      "dur": {
+        "ws0": 366,
+        "ws2": 366
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 2,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 2,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 2,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 3,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 3,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 3,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 3,
+      "dur": {
+        "ws0": 366,
+        "ws2": 366
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 3,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 3,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 3,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 4,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 4,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 4,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 4,
+      "dur": {
+        "ws0": 366,
+        "ws2": 366
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 4,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 4,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 4,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 5,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 5,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 5,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 5,
+      "dur": {
+        "ws0": 336,
+        "ws2": 336
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 5,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 5,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 5,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 6,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 6,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 6,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 6,
+      "dur": {
+        "ws0": 336,
+        "ws2": 336
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 6,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 6,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 6,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 7,
+      "dur": {
+        "crane": 50.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 7,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 7,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 7,
+      "dur": {
+        "ws1": 346
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 7,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 7,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 7,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 8,
+      "dur": {
+        "crane": 50.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 8,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 8,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 8,
+      "dur": {
+        "ws1": 346
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 8,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 8,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 8,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 9,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 9,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 9,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 9,
+      "dur": {
+        "ws1": 336
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 9,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 9,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 9,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 10,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 10,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 10,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 10,
+      "dur": {
+        "ws1": 336
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 10,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 10,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 10,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 11,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 11,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 11,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 11,
+      "dur": {
+        "ws3": 366
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 11,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 11,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 11,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 12,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 12,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 12,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 12,
+      "dur": {
+        "ws3": 366
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 12,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 12,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 12,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 13,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 13,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 13,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 13,
+      "dur": {
+        "ws3": 366
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 13,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 13,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 13,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 14,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 14,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 14,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 14,
+      "dur": {
+        "ws3": 296
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 14,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 14,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 14,
+      "dur": {
+        "crane": 54.812
+      }
+    },
+    {
+      "kind": "ret",
+      "job": 15,
+      "dur": {
+        "crane": 60.812
+      }
+    },
+    {
+      "kind": "pplus",
+      "job": 15,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dplus",
+      "job": 15,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "proc",
+      "job": 15,
+      "dur": {
+        "ws3": 296
+      }
+    },
+    {
+      "kind": "pminus",
+      "job": 15,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "dminus",
+      "job": 15,
+      "dur": {
+        "amr0": 8,
+        "amr1": 8
+      }
+    },
+    {
+      "kind": "sto",
+      "job": 15,
+      "dur": {
+        "crane": 54.812
+      }
+    }
+  ],
+  "pinned_crane": [],
+  "dur_convention": "\uD5C8\uC6A9 \uC790\uC6D0\u00B7\uC140\uC5D0 \uB300\uD55C \uCD5C\uC19F\uAC12 (H \uB099\uAD00 \uD558\uD55C\uACFC \uAC19\uC740 \uBC29\uD5A5). \uBC30\uC815 \uD655\uC815 \uD6C4\uC5D0\uB294 dur_by_res \uC758 \uD574\uB2F9 \uAC12\uC73C\uB85C \uBC14\uAFD4 \uC4F0\uB294 \uD3B8\uC774 \uC815\uD655\uD558\uB2E4."
+}
